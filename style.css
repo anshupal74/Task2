@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.sidebar {
+    background-color:lightcyan;
+    width: 434px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 34px;
+    height: 123vh;
+
+ 
+
+}
+
+.sidebar nav {
+    padding: 34px;
+}
+
+.sidebar nav li {
+
+    list-style: none;
+    font-size: 15px;
+    padding: 23px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+   font-size:  20px;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+  
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    text-size-adjust: 16px;
+    display: flex;
+    /* background-color:darkblue; */
+    width: 80vw;
+    height: 60vh;
+    margin: 144px auto;
+    justify-content: space-around;
+  
+
+}
+
+.devinfo {
+    display: flex;
+    /* margin: 5px; */
+    font-size: 32px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpics img {
+    height: 60vh;
+
+}
+
+.hello {
+    font-size: 40px;
+    font-family: cursive;
+    padding: 3px;
+}
+
+.about {
+    font-size: 40px;
+margin-top: 22px;
+font-family: cursive;
+}
+
+.service {
+    font-size: 20px;
+    margin-top: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.buttons{
+   padding: 11px ;
+    margin: 13px;
+
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    color: dodgerblue;
+    background-color:white ;
+    
+    cursor: pointer;
+
+}
+.buttons{
+    padding: 12px;
+    border-radius: 12px;
+    margin: 3px 2px;
+    /* background-color: dodgerblue; */
+    font-size : 20px;
+    color: dodgerblue;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    color:black;
+    background-color: aqua;
+}
+
+
+
+.Contact{
+    font-size: 30px;
+    margin-top: 12px;
+}
+.btn-primary{
+    padding: 12px;
+    background-color: dodgerblue;
+    border-radius: 17px;
+    font-size: 19px;
+}
+
+
+
+.contactform{
+   font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 32px;
+padding: 0 34px;
+border-radius: 23px;
+
+}
+.contactform h1{
+    padding-top: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+.contactform div{
+    padding: 12px 0;
+    display: flex;
+flex-direction: column;
+
+width: 23vw;
+
+}
+.contactform div{
+   border-radius: 5px;
+
+}
+
+
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+width: 33px;
+font-size: 12px;
+
+}
+.blogitem{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.h1{
+font-family: cursive;
+margin: 23px;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro h2{
+    font-family: Arial, Helvetica, sans-serif;
+margin: 12px;
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 325px;
+    height: 14px;
+    background-color: brown;
+}
+
+/* .skillitem{
+    
+} */
