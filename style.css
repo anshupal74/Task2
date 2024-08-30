@@ -7,10 +7,10 @@
 }
 
 
-.sidebar {
+.sidebar{
     background-color:lightcyan;
-    width: 434px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 334px;
+   font-family: cursive;
     padding: 34px;
     height: 123vh;
 
@@ -25,7 +25,7 @@
 .sidebar nav li {
 
     list-style: none;
-    font-size: 15px;
+    font-size: 20px;
     padding: 23px 0;
 
 }
@@ -34,6 +34,8 @@
     text-decoration: none;
    font-size:  20px;
     color: black;
+    display: flex;
+    
 }
 
 .main {
@@ -64,6 +66,7 @@
     font-size: 32px;
     justify-content: center;
     flex-direction: column;
+    /* background-color: gray; */
 }
 
 .devpics img {
@@ -90,46 +93,58 @@ font-family: cursive;
 }
 
 
-.buttons{
+/* .buttons{
    padding: 11px ;
     margin: 13px;
 
     border-radius: 22px;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
     color: dodgerblue;
     background-color:white ;
     
     cursor: pointer;
 
-}
-.buttons{
+} */
+.btn{
     padding: 12px;
-    border-radius: 12px;
+    border-radius: 22px;
     margin: 3px 2px;
     /* background-color: dodgerblue; */
-    font-size : 20px;
-    color: dodgerblue;
+    font-size : 14pxpx;
+    /* color: dodgerblue; */
 }
-
-.btn button:hover{
+.button{
+    color: white;
+    /* background-color: dodgerblue; */
+}
+.btn:hover{
     cursor: pointer;
-    color:black;
-    background-color: aqua;
+color: black;
+    background-color: dodgerblue
 }
-
-
+.buttons button{
+    font-size: 15px;
+    border-radius: 22px;
+    color: darkblue;
+    padding: 4px;
+    font-size: 20px;
+}
+.buttons button:hover{
+    background-color: dodgerblue;
+    color: black;
+}
 
 .Contact{
     font-size: 30px;
     margin-top: 12px;
 }
-.btn-primary{
+/* .btn-primary{
     padding: 12px;
     background-color: dodgerblue;
     border-radius: 17px;
     font-size: 19px;
-}
+} */
 
 
 
